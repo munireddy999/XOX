@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: blue;
+    text-align: center;
+}
+.container{
+    height: 70vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    gap: 1vmin;  
+}
+.box{
+    height:18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    font-size: 8vmin;
+    background-color: black;
+    color: whitesmoke;
+    border: none;
+}
+
+#reset{
+    background-color: red;
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+#new{
+    background-color: green;;
+    color: whitesmoke;
+    padding: 1rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: none;
+}
+#message{
+    color: orange;
+    font-size: 3rem;
+}
+.winner-container{
+    height: 20vmin;
+}
+.tie-container{
+     height: 10vmin;
+}
+#tie{
+       color: darkgoldenrod;
+    font-size: 3rem;
+}
+.hide{
+    display: none;
+}
+
